@@ -57,10 +57,6 @@ body {
 	padding: 50px 30px 30px 30px;
 }
 
-.events {
-	height:1000px;
-}
-
 .logo {
 	background-color:white;
 	padding: 15px 10px 15px 10px;
@@ -69,6 +65,71 @@ body {
 }
 
 .events {
-	height:500px;
-	margin-top:50px;
+	a {
+		text-decoration:none;
+	}
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.no-gutter [class*="-6"] {
+    padding-left:0;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.event {
+	height:200px;
+	h1 {
+		color:white;
+		text-shadow: 2px 2px 0px rgba(50, 50, 50, 0.6);
+	}
+	&:hover {
+		opacity:0.8;
+	}
+	padding: 0px 10px 0px 10px;
+}
+
+.details {
+	position: absolute;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.5);
+    margin: 0px -10px 0px -10px;
+    padding: 10px 15px 10px 15px;
+    width:100%;
+    p {
+    	margin:0px;
+    	color:white;
+    }
+    span {
+    	float:right;
+    }
+}
+
+.aboutus {
+	margin-top: 50px;
+	margin-bottom:50px;
+	h1 {
+		font-family:liberator;
+		margin-bottom: 20px;
+	}
+}
+
+.footer {
+	background-color:#2c3e50;
+	padding: 20px 0px 20px 0px;
+	a {
+		color:white;
+		text-decoration:none;
+	}
+	p {
+		margin: 0px;
+		color:white;
+	}
 }

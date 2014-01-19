@@ -6,6 +6,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,14 +50,79 @@
     </div>
 
     <div class="events">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <p>hi</p>
+      <div class="container container-full">
+        <div class="row no-gutter">
+
+          <div class="col-lg-3 nopadding">
+            <a href="http://hackbca.com"><div class="event" style="background: url('img/hackbca.jpeg'); background-size:100%">
+              <br>
+              <h1 class="text-center">HACKBCA</h1>
+              <div class="details">
+                <p><i class="fa fa-clock-o"></i> March 21st &nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fa fa-location-arrow"></i> Philadephia, PN</span></p>
+              </div>
+            </div></a>
           </div>
+          <div class="col-lg-3 nopadding">
+            <a href="http://www.sohacks.com"><div class="event" style="background: url('img/sohacks.jpg'); background-size:100%">
+              <br>
+              <h1 class="text-center">SOHACKS</h1>
+              <div class="details">
+                <p><i class="fa fa-clock-o"></i> March 21st &nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fa fa-location-arrow"></i> San Antonio, TX</span></p>
+              </div>
+            </div></a>
+          </div>
+          <div class="col-lg-3 nopadding">
+            <a href="http://hackhs.io"><div class="event" style="background: url('img/hackhs.jpg'); background-size:100%">
+              <br>
+              <h1 class="text-center">HACKHS</h1>
+              <div class="details">
+                <p><i class="fa fa-clock-o"></i> March 21st &nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fa fa-location-arrow"></i> Menlo Park, CA</span></p>
+              </div>
+            </div></a>
+          </div>
+          <div class="col-lg-3 nopadding">
+            <a href="#"><div class="event" style="background: url('img/hackers.jpg'); background-size:100%">
+              <br>
+              <h1 class="text-center">NODE WORKSHOP</h1>
+              <div class="details">
+                <p><i class="fa fa-clock-o"></i> March 21st &nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fa fa-location-arrow"></i> Philadephia, PN</span></p>
+              </div>
+            </div></a>
+          </div>
+
         </div>
       </div>
     </div>
+
+    <div class="aboutus">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5">
+            <h1>About Us</h1>
+            <p>Flop over claw drapes use lap as chair nap all day rub face on everything chew iPad power cord. Chew foot give attitude. Attack feet. Intrigued by the shower sun bathe so leave dead animals as gifts leave hair everywhere or chew foot, and sweet beast. Hopped up on goofballs stick butt in face or sleep on keyboard so why must they do that swat at dog for play time or chew iPad power cord. Leave dead animals as gifts hate dog hide when guests come over missing until dinner time. Mark territory lick butt. Rub face on everything leave hair everywhere. Sun bathe cat snacks but chew foot. </p>
+          </div>
+          <div class="col-lg-5 col-lg-offset-2">
+            <h1>Partners</h1>
+            <img src="img/mlh.png">
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <p><a href="#"><span>HOME</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">SCHEDULE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">RANKINGS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">SIGNUP</a></p>
+        </div>
+        <div class="col-lg-6">
+          <p class="text-right"><a href="http://twitter.com/hackersunder20">@hackersunder20</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -71,7 +137,8 @@
   webm:'http://d385d9sgj3wiu1.cloudfront.net/mhacks.ogg',
   poster:'img/tunnel_animation.jpg',
   opacity:0.5,
-});</script>
+});
+    $("video").prop('muted', true);</script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js" style="text/javascript">
