@@ -15,30 +15,61 @@
     <![endif]-->
   </head>
   <body>
+
     <div class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-2">
-            <div class="logo">
-              <img src="img/logo.png" width="100%">
+      <div class="color">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+
+                  <div class="col-lg-2">
+                    <div class="logo">
+                      <img src="img/logo.png" width="100%">
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-lg-offset-5">
+                    <div class="nav">
+                      <p class="text-center"><a href="#"><span>Home</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Schedule</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Rankings</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Signup</a></p>
+                    </div>
+                  </div>
+
+                </div>
             </div>
           </div>
-          <div class="col-lg-4 col-lg-offset-2">
-            <div class="nav">
-              <p class="text-right"><a href="#">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">SCHEDULE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">RANKINGS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">ABOUT</a></p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="nav">
-              <p class="text-right"><a href="#">LOGIN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">SIGNUP</a></p>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tagline">
+                <h1 class="text-center">WE EMPOWER STUDENTS<br>TO PERSUE COMPUTER SCIENCE</h1>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="container" style="height:500px;">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>hi</p>
+        </div>
+      </div>
+    </div>
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/jquery.videoBG.js"></script>
+    <script>$('.header').videoBG({
+      position:"relative",
+    zIndex:-1,
+  mp4:'img/tunnel_animation.mp4',
+  ogv:'img/tunnel_animation.ogv',
+  webm:'img/tunnel_animation.webm',
+  poster:'img/tunnel_animation.jpg',
+  opacity:0.5,
+});</script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js" style="text/javascript">
