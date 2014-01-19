@@ -41,6 +41,12 @@
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px; }
 
+.season {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .season h1 {
+    font-family: liberator; }
+
 .events a {
   text-decoration: none; }
 
@@ -63,6 +69,9 @@
     text-shadow: 2px 2px 0px rgba(50, 50, 50, 0.6); }
   .event:hover {
     opacity: 0.8; }
+  .event img {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); }
 
 .details {
   position: absolute;
@@ -83,6 +92,18 @@
   .aboutus h1 {
     font-family: liberator;
     margin-bottom: 20px; }
+  .aboutus a {
+    text-decoration: none; }
+
+.info {
+  background-color: #3498db;
+  padding: 10px 0px 10px 0px; }
+  .info p {
+    margin: 0px;
+    font-weight: 700;
+    color: white; }
+  .info:hover {
+    opacity: 0.8; }
 
 .footer {
   background-color: #2c3e50;

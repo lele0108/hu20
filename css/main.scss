@@ -64,6 +64,14 @@ body {
 	border-bottom-left-radius: 5px;
 }
 
+.season {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	h1 {
+		font-family:liberator;
+	}
+}
+
 .events {
 	a {
 		text-decoration:none;
@@ -94,6 +102,10 @@ body {
 		opacity:0.8;
 	}
 	padding: 0px 10px 0px 10px;
+	img {
+		border-radius: 5px;
+		background-color: rgba(0,0,0,0.5);
+	}
 }
 
 .details {
@@ -118,6 +130,22 @@ body {
 	h1 {
 		font-family:liberator;
 		margin-bottom: 20px;
+	}
+	a {
+		text-decoration:none;
+	}
+}
+
+.info {
+	background-color:#3498db;
+	padding: 10px 0px 10px 0px;
+	p {
+		margin:0px;
+		font-weight:700;
+		color:white;
+	}
+	&:hover {
+		opacity:0.8;
 	}
 }
 
