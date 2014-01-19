@@ -8,12 +8,7 @@
 	src: url('../fonts/Liberator.ttf');
 }
 
-
-body {
-	
-}
-
-
+// index.html
 .bar {
 	background-color:white;
 	border-bottom: gray 3px solid;
@@ -21,12 +16,17 @@ body {
 
 .color {
 	background-color:rgba(0,0,0,0.6);
+	opacity:1.0 !important;
+}
+
+.novideo {
+	background-color:black;
+	background: url('../img/hackers.jpg') no-repeat center center fixed; 
+	background-size:cover;
 }
 
 .header {
-	//background-color:black;
-	//background: url('../img/hackers.jpg') no-repeat center center fixed; 
-	//background-size:cover;
+	opacity:1.0 !important;
 	a {
 		text-decoration:none;
 		font-weight:700;
@@ -45,12 +45,19 @@ body {
 		color:white;
 		font-size:60px;
 		line-height:75px;
-		//text-shadow: 2px 2px 0px red;
 	}
+}
+
+.tip {
+	border:0px !important;
 }
 
 .tagline {
 	padding: 100px 0px 100px 0px;
+}
+
+.title {
+	padding: 60px 0px 60px 0px;
 }
 
 .nav {
@@ -62,6 +69,13 @@ body {
 	padding: 15px 10px 15px 10px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0;  
+    z-index: 1; 
 }
 
 .season {
@@ -125,8 +139,8 @@ body {
 }
 
 .aboutus {
-	margin-top: 50px;
-	margin-bottom:50px;
+	margin-top: 75px;
+	margin-bottom:75px;
 	h1 {
 		font-family:liberator;
 		margin-bottom: 20px;
@@ -146,6 +160,24 @@ body {
 	}
 	&:hover {
 		opacity:0.8;
+	}
+}
+
+// schedule.html
+.schedule {
+	margin: 75px 0px 75px 0px;
+	h1 {
+		font-family:liberator;
+	}
+}
+
+.name {
+	background-color:#3498db;
+	padding: 10px 0px 10px 0px;
+	p {
+		font-weight:700;
+		margin:0px;
+		color:white;
 	}
 }
 
