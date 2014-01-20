@@ -17,6 +17,9 @@
 .color {
 	background-color:rgba(0,0,0,0.6);
 	opacity:1.0 !important;
+	&:hover {
+		opacity:1;
+	}
 }
 
 .novideo {
@@ -26,7 +29,6 @@
 }
 
 .header {
-	opacity:1.0 !important;
 	a {
 		text-decoration:none;
 		font-weight:700;
@@ -69,13 +71,7 @@
 	padding: 15px 10px 15px 10px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-	position: -webkit-sticky;
-    position: -moz-sticky;
-    position: -ms-sticky;
-    position: -o-sticky;
-    position: sticky;
-    top: 0;  
-    z-index: 1; 
+	
 }
 
 .season {

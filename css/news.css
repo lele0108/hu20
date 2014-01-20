@@ -1,0 +1,80 @@
+.bar {
+  background-color: white;
+  border-bottom: gray 3px solid; }
+
+.color {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1.0 !important; }
+  .color:hover {
+    opacity: 1; }
+
+.novideo {
+  background-color: black;
+  background: url("http://jliu.me/hackersunder20/img/hackers.jpg") no-repeat center center fixed;
+  background-size: cover; }
+
+.header a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: white; }
+  .header a:hover {
+    opacity: 0.8;
+    border-bottom: 2px solid white; }
+.header span {
+  border-bottom: 2px solid white; }
+.header h1 {
+  font-family: liberator;
+  color: white;
+  font-size: 60px;
+  line-height: 75px; }
+
+.tip {
+  border: 0px !important; }
+
+.tagline {
+  padding: 100px 0px 100px 0px; }
+
+.title {
+  padding: 60px 0px 60px 0px; }
+
+.nav {
+  padding: 50px 30px 30px 30px; }
+
+.logo {
+  background-color: white;
+  padding: 15px 10px 15px 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+.news {
+  margin: 75px 0px 0px 0px; }
+  .news h1 {
+    font-weight: 900; }
+  .news p {
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400; }
+  .news a {
+    color: #F1C52F;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none; }
+
+.tit a {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black; }
+
+.footer {
+  background-color: #2c3e50;
+  padding: 20px 0px 20px 0px; }
+  .footer a {
+    color: white;
+    text-decoration: none; }
+  .footer p {
+    margin: 0px;
+    color: white; }

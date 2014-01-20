@@ -13,29 +13,29 @@
 .color {
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 1.0 !important; }
+  .color:hover {
+    opacity: 1; }
 
 .novideo {
   background-color: black;
   background: url("../img/hackers.jpg") no-repeat center center fixed;
   background-size: cover; }
 
-.header {
-  opacity: 1.0 !important; }
-  .header a {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 15px;
-    color: white; }
-    .header a:hover {
-      opacity: 0.8;
-      border-bottom: 2px solid white; }
-  .header span {
+.header a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: white; }
+  .header a:hover {
+    opacity: 0.8;
     border-bottom: 2px solid white; }
-  .header h1 {
-    font-family: liberator;
-    color: white;
-    font-size: 60px;
-    line-height: 75px; }
+.header span {
+  border-bottom: 2px solid white; }
+.header h1 {
+  font-family: liberator;
+  color: white;
+  font-size: 60px;
+  line-height: 75px; }
 
 .tip {
   border: 0px !important; }
@@ -53,14 +53,7 @@
   background-color: white;
   padding: 15px 10px 15px 10px;
   border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1; }
+  border-bottom-left-radius: 5px; }
 
 .season {
   margin-top: 50px;
