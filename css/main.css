@@ -1,10 +1,43 @@
 @font-face {
-  font-family: airship;
-  src: url("../fonts/airship.ttf"); }
-
-@font-face {
   font-family: liberator;
   src: url("../fonts/Liberator.ttf"); }
+
+@media (max-width: 767px) {
+  .header {
+    background-color: black;
+    background: url("../img/hackers.jpg") no-repeat center center fixed;
+    background-size: cover; }
+
+  .nav {
+    padding: 0px !important; }
+    .nav p {
+      align: center; }
+
+  .tagline {
+    padding: 20px 0px 20px 0px !important; }
+    .tagline h1 {
+      font-size: 30px !important;
+      line-height: 40px !important; }
+
+  .aboutus {
+    margin-top: 10px !important; }
+    .aboutus h1 {
+      margin-top: 60px !important; }
+
+  .name {
+    margin-top: 30px; }
+
+  .title h1 {
+    font-size: 30px !important;
+    line-height: 40px !important; }
+
+  .person {
+    margin-top: 30px; } }
+@media (min-width: 767px) {
+  .slicknav_menu {
+    display: none; } }
+#menu {
+  display: none; }
 
 .bar {
   background-color: white;
@@ -150,7 +183,9 @@
   padding: 20px; }
 
 .text {
-  padding: 20px; }
+  padding: 20px;
+  max-height: 200px;
+  overflow: scroll; }
   .text h2 {
     margin-top: 5px; }
 
