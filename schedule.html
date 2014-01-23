@@ -7,6 +7,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slicknav.css" />
   </head>
   <body>
 
@@ -17,14 +18,29 @@
             <div class="col-lg-12">
                 <div class="row">
 
-                  <div class="col-lg-2">
+                  <div class="col-lg-2 hidden-xs hidden-sm">
                     <div class="logo">
                       <img src="img/logo.png" width="100%">
                     </div>
                   </div>
-                  <div class="col-lg-5 col-lg-offset-5">
+                  <div class="col-xs-6 visible-xs visible-sm">
+                    <div class="logo">
+                      <img src="img/logo.png" width="100%">
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-lg-offset-5 hidden-xs hidden-sm">
                     <div class="nav">
-                      <p class="text-right"><a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="schedule.html"><span>Schedule</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" data-toggle="tooltip" data-original-title="Coming Soon">Rankings</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" data-toggle="tooltip" data-original-title="Coming Soon">Signup</a></p>
+                      <p class="text-right"><a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="schedule.html"><span>Schedule</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" data-toggle="tooltip" data-original-title="Coming Soon">Rankings</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://blog.hackersunder20.com">News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" data-toggle="tooltip" data-original-title="Coming Soon">Signup</a></p>
+                    </div>
+                  </div>
+                  <div class="col-xs-6 visible-xs visible-sm">
+                    <div class="nav">
+                      <ul id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="http://blog.hackersunder20.com">News</a></li>
+                        <li><a href="about.html">About</a></li>
+                      </ul>
                     </div>
                   </div>
 
@@ -130,8 +146,8 @@
   <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <p><a href="#"><span>HOME</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">SCHEDULE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">RANKINGS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">SIGNUP</a></p>
+        <div class="col-lg-6 hidden-sm hidden-xs">
+          <p><a href="index.html"><span>HOME</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="schedule.html">SCHEDULE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">RANKINGS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://blog.hackersunder20.com">NEWS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">SIGNUP</a></p>
         </div>
         <div class="col-lg-6">
           <p class="text-right"><a href="http://twitter.com/hackersunder20">@hackersunder20</a></p>
@@ -145,6 +161,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
     <script src="js/scripts.js" style="text/javascript"></script>
   </body>
 </html>
