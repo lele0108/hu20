@@ -32,7 +32,10 @@
     line-height: 40px !important; }
 
   .person {
-    margin-top: 30px; } }
+    margin-top: 30px; }
+
+  .schedule h1 {
+    font-size: 30px !important; } }
 @media (min-width: 767px) {
   .slicknav_menu {
     display: none; } }
