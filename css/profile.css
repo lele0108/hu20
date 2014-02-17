@@ -100,9 +100,18 @@ body {
   top: 50%;
   transform: translateY(-50%); }
 
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.no-gutter [class*="-12"] {
+  padding-left: 0; }
+
 .user {
   margin-top: -80px;
-  background-color: white;
+  background-color: white; }
+
+.top {
   padding: 30px 20px 30px 20px; }
 
 .profilepicture img {
@@ -126,6 +135,26 @@ body {
   margin-top: 30px; }
   .stats h2, .stats p {
     margin: 0px; }
+
+.sidebar {
+  background-color: #bdc3c7;
+  padding: 30px 20px 30px 20px; }
+
+.main {
+  background-color: #ecf0f1;
+  padding: 30px 50px 30px 50px; }
+
+#right {
+  padding-right: 0px !important; }
+
+#left {
+  padding-left: 0px !important; }
+
+#about {
+  margin-bottom: 50px; }
+
+.hack {
+  background-color: white; }
 
 .footer {
   background-color: #2c3e50;
