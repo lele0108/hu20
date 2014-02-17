@@ -141,9 +141,23 @@
 
 .profilepicture {
 	img {
-		border-radius:5px;
+		border-radius:4px;
 		width: 100%;
-		border: 3px solid white;
+		border: 4px solid white;
+	}
+}
+
+.profiletext {
+	h4 {
+		font-weight:400;
+		color:gray;
+	}
+	a {
+		color:gray;
+		&:hover {
+			text-decoration:none;
+			opacity:0.6;
+		}
 	}
 }
 
