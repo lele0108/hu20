@@ -158,9 +158,8 @@ body {
 
 .profilepicture {
 	img {
-		border-radius:4px;
+		border-radius:5px;
 		width: 100%;
-		border: 4px solid #bdc3c7;
 	}
 }
 
@@ -196,7 +195,7 @@ body {
 
 .main {
 	background-color:#ecf0f1;
-	padding:30px 50px 30px 50px;
+	padding:30px 50px 50px 50px;
 }
 
 #right {
@@ -211,10 +210,18 @@ body {
 	margin-bottom:50px;
 }
 
+#hackathons {
+	margin-bottom:50px;
+}
+
 .hack {
 	background-color:white;
 }
 
+.medal {
+	background-color:white;
+	padding: 0px 0px 5px;
+}
 
 .footer {
 	background-color:#2c3e50;
