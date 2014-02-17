@@ -174,9 +174,46 @@
                     <div id="projects">
                       <h1>Projects</h1><br>
                       <div class="row">
+
                         <div class="col-lg-4">
-                          
+                          <div class="viewport">
+                            <a href="http://www.flickr.com/photos/matt_bango/3479048548/">
+                              <span class="dark-background">
+                                <h4>Vacay</h4>
+                                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                              </span>
+                              <img src="http://placehold.it/250x200" alt="Northern Saw-Whet Owl" width="100%"/>
+                            </a>
+                          </div>
+                          <div id="pinfo"><p class="text-right">MHacks Spring 2013</p></div>
                         </div>
+
+                        <div class="col-lg-4">
+                          <div class="viewport">
+                            <a href="http://www.flickr.com/photos/matt_bango/3479048548/">
+                              <span class="dark-background">
+                                <h4>Vacay</h4>
+                                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                              </span>
+                              <img src="http://placehold.it/250x200" alt="Northern Saw-Whet Owl" width="100%"/>
+                            </a>
+                          </div>
+                          <div id="pinfo"><p class="text-right">MHacks Spring 2013</p></div>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <div class="viewport">
+                            <a href="http://www.flickr.com/photos/matt_bango/3479048548/">
+                              <span class="dark-background">
+                                <h4>Vacay</h4>
+                                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                              </span>
+                              <img src="http://placehold.it/250x200" alt="Northern Saw-Whet Owl" width="100%"/>
+                            </a>
+                          </div>
+                          <div id="pinfo"><p class="text-right">MHacks Spring 2013</p></div>
+                        </div>
+
                       </div>
                     </div>
 
@@ -212,5 +249,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/scripts.js" style="text/javascript"></script>
+    <script>
+      $(document).ready(function() {
+    $('.viewport').mouseenter(function(e) {
+        $(this).children('a').children('span').fadeIn(200);
+    }).mouseleave(function(e) {
+        $(this).children('a').children('span').fadeOut(200);
+    });
+});</script>
   </body>
 </html>
