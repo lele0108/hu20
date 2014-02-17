@@ -109,7 +109,9 @@ body {
 
 .user {
   margin-top: -80px;
-  background-color: white; }
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; }
 
 .top {
   padding: 30px 20px 30px 20px; }
@@ -214,6 +216,18 @@ body {
 .medal {
   background-color: white;
   padding: 0px 0px 5px; }
+
+.contact p {
+  line-height: 30px;
+  color: #7f8c8d;
+  margin: 0px; }
+.contact a {
+  line-height: 30px;
+  text-decoration: none;
+  color: black;
+  margin: 0px; }
+  .contact a hover {
+    opacity: 0.6; }
 
 .footer {
   background-color: #2c3e50;

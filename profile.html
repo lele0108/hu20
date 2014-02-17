@@ -110,6 +110,7 @@
               <div class="col-lg-3" id="right">
                 <div class="sidebar">
                   <h3>Medals</h3><br>
+                  <!--start medals-->
                   <div class="row">
 
                     <div class="col-lg-6">
@@ -129,6 +130,50 @@
                     </div>
 
                   </div>
+                  <!--end medals-->
+                  <br><h3>Contact</h3><br>
+                  <!--start contacts-->
+                  <div class="row">
+                    <div class="contact">
+                      <div class="col-lg-6">
+                        <p><i class="fa fa-twitter"></i> Twitter</p>
+                      </div>
+                      <div class="col-lg-6">
+                        <a href="#">@jimmyliu</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="contact">
+                      <div class="col-lg-6">
+                        <p><i class="fa fa-facebook"></i> Facebook</p>
+                      </div>
+                      <div class="col-lg-6">
+                        <a href="#">/jimmyliu98</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="contact">
+                      <div class="col-lg-6">
+                        <p><i class="fa fa-github"></i> Github</p>
+                      </div>
+                      <div class="col-lg-6">
+                        <a href="#">@lele0108</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="contact">
+                      <div class="col-lg-6">
+                        <p><i class="fa fa-envelope"></i> Email</p>
+                      </div>
+                      <div class="col-lg-6">
+                        <a href="#">Email me</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end contacts-->
                 </div>
               </div>
               <div class="col-lg-9" id="left">
@@ -251,11 +296,13 @@
     <script src="js/scripts.js" style="text/javascript"></script>
     <script>
       $(document).ready(function() {
-    $('.viewport').mouseenter(function(e) {
-        $(this).children('a').children('span').fadeIn(200);
-    }).mouseleave(function(e) {
-        $(this).children('a').children('span').fadeOut(200);
-    });
-});</script>
+        $('.viewport').mouseenter(function(e) {
+          $(this).children('a').children('span').fadeIn(200);
+        }).mouseleave(function(e) {
+        $(this).children('a').children('span').fadeOut(200);});
+        var height = $(".main").height() + 20;
+        $('.sidebar').height(height);
+      });
+    </script>
   </body>
 </html>
