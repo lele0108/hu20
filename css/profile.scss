@@ -1,5 +1,8 @@
+$maincolor: #f6f6f6;
+$border: #e2e8ea;
+
 body {
-	background-color:#f6f8f8;
+	background-color:#ecf0f1;
 }
 
 @font-face {
@@ -152,10 +155,13 @@ body {
 	background-color:white;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
+	border: 1px solid #e2e8ea;
+	border-bottom: 0px;
 }
 
 .top {
 	padding:30px 20px 30px 20px;
+	border-bottom: 1px solid $border;
 }
 
 .profilepicture {
@@ -191,13 +197,14 @@ body {
 }
 
 .sidebar {
-	background-color:#bdc3c7;
+	background-color:$maincolor;
 	padding:30px 20px 30px 20px;
 }
 
 .main {
-	background-color:#ecf0f1;
+	background-color:$maincolor;
 	padding:30px 50px 50px 50px;
+	border-left: 1px solid $border;
 }
 
 #right {
@@ -286,11 +293,13 @@ body {
 
 .hack {
 	background-color:white;
+	border: 1px solid $border;
 }
 
 .medal {
 	background-color:white;
 	padding: 0px 0px 5px;
+	border: 1px solid $border;
 }
 
 .contact {
@@ -303,7 +312,7 @@ body {
 		line-height:30px;
 		text-decoration:none;
 		color:black;
-		hover {
+		&:hover {
 			opacity: 0.6;
 		}
 		margin: 0px;
@@ -318,6 +327,10 @@ body {
 		color: #3498db;
 		line-height: 40px;
 		margin-right: 5px;
+		&:hover {
+			background-color: #3498db;
+			color:$maincolor;
+		}
 	}
 }
 

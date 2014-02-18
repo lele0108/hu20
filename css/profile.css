@@ -1,5 +1,5 @@
 body {
-  background-color: #f6f8f8; }
+  background-color: #ecf0f1; }
 
 @font-face {
   font-family: liberator;
@@ -111,10 +111,13 @@ body {
   margin-top: -80px;
   background-color: white;
   border-top-right-radius: 5px;
-  border-top-left-radius: 5px; }
+  border-top-left-radius: 5px;
+  border: 1px solid #e2e8ea;
+  border-bottom: 0px; }
 
 .top {
-  padding: 30px 20px 30px 20px; }
+  padding: 30px 20px 30px 20px;
+  border-bottom: 1px solid #e2e8ea; }
 
 .profilepicture img {
   border-radius: 5px;
@@ -138,12 +141,13 @@ body {
     margin: 0px; }
 
 .sidebar {
-  background-color: #bdc3c7;
+  background-color: #f6f6f6;
   padding: 30px 20px 30px 20px; }
 
 .main {
-  background-color: #ecf0f1;
-  padding: 30px 50px 50px 50px; }
+  background-color: #f6f6f6;
+  padding: 30px 50px 50px 50px;
+  border-left: 1px solid #e2e8ea; }
 
 #right {
   padding-right: 0px !important; }
@@ -211,11 +215,13 @@ body {
  * image type. Use your imagination!
  */
 .hack {
-  background-color: white; }
+  background-color: white;
+  border: 1px solid #e2e8ea; }
 
 .medal {
   background-color: white;
-  padding: 0px 0px 5px; }
+  padding: 0px 0px 5px;
+  border: 1px solid #e2e8ea; }
 
 .contact p {
   line-height: 30px;
@@ -226,7 +232,7 @@ body {
   text-decoration: none;
   color: black;
   margin: 0px; }
-  .contact a hover {
+  .contact a:hover {
     opacity: 0.6; }
 
 .skills span {
@@ -236,6 +242,9 @@ body {
   color: #3498db;
   line-height: 40px;
   margin-right: 5px; }
+  .skills span:hover {
+    background-color: #3498db;
+    color: #f6f6f6; }
 
 .footer {
   background-color: #2c3e50;
